@@ -41,7 +41,7 @@ TxtType.prototype.tick = function() {
 	this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
 	var that = this;
-	var delta = 200 - Math.random() * 100;
+	var delta = 100 - Math.random() * 100;
 
 	if (this.isDeleting) { delta /= 2; }
 
@@ -82,7 +82,7 @@ TxtType.prototype.tick = function() {
 					new TxtType(elements[i], JSON.parse(toRotate), period);
 				}
 			}
-	}, 2500);
+	}, 1500);
 	
 		setTimeout(function() {
 			var elements = document.getElementsByClassName('typewrite3');
@@ -94,7 +94,7 @@ TxtType.prototype.tick = function() {
 					new TxtType(elements[i], JSON.parse(toRotate), period);
 				}
 			}
-	}, 5500);
+	}, 3500);
 	
 	
 	//		// INJECT CSS
@@ -102,3 +102,15 @@ TxtType.prototype.tick = function() {
 //		css.type = "text/css";
 //		css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
 //		document.body.appendChild(css);
+
+//var myHome = {lat: 0, lng: 0}
+//
+//function myMap() {
+//    //Defines the properties of the map
+//    var mapProp= {
+//   	 center: myHome, //defines where the map is centered on load
+//   	 zoom:5, //specifies map initial zoom level
+//    };
+//
+//    var map = google.maps.Map(document.getElementById(“googleMap”), mapProp);
+//}

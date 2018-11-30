@@ -50,7 +50,6 @@ h4 {
 
 p {
 	font-size: 14px;
-/*	font-family: "Baskerville", serif;*/
 	text-align: left;
 }
 
@@ -91,14 +90,14 @@ hr {
 	height: .20rem;
 	width: 25%;
 	margin-top: -1px;
-	margin-left: 1.7%;
+	margin-left: 2.7%;
 	background: #9e867b;
 	border: none;
 	transition: .3s ease-in-out;
 }
 
 .resume:hover ~ hr {
-	margin-left: 36.5%;
+	margin-left: 37.5%;
 }
 
 .about hr {
@@ -151,16 +150,23 @@ hr {
 }
 
 .details {
-	margin-top: 7.75%;
+	margin-top: 9.25%;
 }
 
 .site-map {
 	height: 40vw;
 }
 
-.about-pic {
+.about-img {
 	height: 32vw;
 	margin-right: 5%;
+}
+
+.type-final-img {
+	height: 32vw; 
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*footer*/
@@ -171,12 +177,3 @@ hr {
 .return:hover, .here:hover {
 	color: #9e867b;
 }
-
-
-/*for iphones*/
-@media only screen and (min-width: 600px) {
-	.about-pic {
-		height: auto; 
-		width: 300px;
-	}
-} 
