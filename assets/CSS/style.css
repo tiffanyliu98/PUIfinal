@@ -31,25 +31,26 @@ h1 {
 
 /*for: individual page titles, thumbnail titles*/
 h2 {
+	padding-left: 0px;
 	font-size: 2.5vw;
 }
 
 /*for: subheadings;*/
 h3 {
 	color: #9e867b;
-	font-size: 20px;
+	font-size: 1.75vw;
 	text-transform: uppercase;
 	font-weight: bold;
 }
 
 /*for: subsubheadings*/
 h4 {
-	font-size: 17px;
+	font-size: 1.45vw;
 	font-style: italic;
 }
 
 p {
-	font-size: 14px;
+	font-size: 1.25vw;
 	text-align: left;
 }
 
@@ -146,12 +147,15 @@ hr {
 
 /*main content*/
 .page-title {
+	padding-left: 0px;
 	margin-left: 1.5%;
 }
 
+/*
 .details {
 	margin-top: 9.25%;
 }
+*/
 
 .site-map {
 	height: 40vw;
