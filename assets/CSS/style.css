@@ -186,3 +186,33 @@ hr {
 .return:hover, .here:hover {
 	color: #9e867b;
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	h1 {
+		font-size: 28px;
+	}
+	
+	h2 {
+		font-size: 20px;
+	}
+	
+	h3 {
+		font-size: 14px;
+	}
+	
+	h4 {
+		font-size: 12px;
+	}
+	
+	p {font-size: 10px;}
+	
+	.nav-item {
+		font-size: 12px;
+	}
+	
+	.about-img {
+		margin-bottom: 10vw;
+	}
+}
