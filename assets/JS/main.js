@@ -1,20 +1,6 @@
 // JavaScript Document
 
 // Typewriter Effect //
-
-//var str = 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.';
-//
-//
-//var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
-//$(spans).hide().appendTo('.css-typing').each(function (i) {
-//    $(this).delay(100 * i).css({
-//        display: 'inline',
-//        opacity: 0
-//    }).animate({
-//        opacity: 1
-//    }, 100);
-//});
-
 $(document).ready(function() {
     $('#two').delay(5000);
 });
@@ -59,7 +45,7 @@ TxtType.prototype.tick = function() {
 		}, delta);
 	};
 	
-		
+		// Line 1 //
 		window.onload = function() {
 		var elements = document.getElementsByClassName('typewrite');
 		console.log(elements);
@@ -72,6 +58,7 @@ TxtType.prototype.tick = function() {
 			}
 	};
 	
+		// Line 2 //
 		setTimeout(function() {
 			var elements = document.getElementsByClassName('typewrite2');
 			console.log(elements);
@@ -84,6 +71,8 @@ TxtType.prototype.tick = function() {
 			}
 	}, 1500);
 	
+
+		// Line 3 //
 		setTimeout(function() {
 			var elements = document.getElementsByClassName('typewrite3');
 			console.log(elements);
@@ -95,22 +84,3 @@ TxtType.prototype.tick = function() {
 				}
 			}
 	}, 3500);
-	
-	
-	//		// INJECT CSS
-//		var css = document.createElement("style");
-//		css.type = "text/css";
-//		css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-//		document.body.appendChild(css);
-
-//var myHome = {lat: 0, lng: 0}
-//
-//function myMap() {
-//    //Defines the properties of the map
-//    var mapProp= {
-//   	 center: myHome, //defines where the map is centered on load
-//   	 zoom:5, //specifies map initial zoom level
-//    };
-//
-//    var map = google.maps.Map(document.getElementById(“googleMap”), mapProp);
-//}

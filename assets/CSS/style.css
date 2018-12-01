@@ -6,15 +6,17 @@ body {
 	font-family: "Source Sans Pro", Arial, sans-serif;
 }
 
-/*for: name heading*/
+/* FONT SPECIFICATION */
+
+/* for: name heading */
 h1 {
-/*	color: #9e867b;*/
 	color: black;
 	font-size: 3.5vw;
 	font-weight: bold;
 	text-transform: uppercase;
 }
 
+/* heading logo */
 .name {
 	color: black;
 }
@@ -24,18 +26,19 @@ h1 {
 	text-decoration: none;
 }
 
+/* landing page text */
 .typewrite, .typewrite2, .typewrite3 {
 	color: black;
 	cursor: default;
 }
 
-/*for: individual page titles, thumbnail titles*/
+/* for: individual page titles, thumbnail titles */
 h2 {
 	padding-left: 0px;
 	font-size: 2.5vw;
 }
 
-/*for: subheadings;*/
+/* for: subheadings */
 h3 {
 	color: #9e867b;
 	font-size: 1.75vw;
@@ -43,7 +46,7 @@ h3 {
 	font-weight: bold;
 }
 
-/*for: subsubheadings*/
+/* for: subsubheadings */
 h4 {
 	font-size: 1.45vw;
 	font-style: italic;
@@ -53,6 +56,8 @@ p {
 	font-size: 1.25vw;
 	text-align: left;
 }
+
+/* NAVIGATION */
 
 .nav-bar {
 	margin-top: 5%;
@@ -73,20 +78,8 @@ p {
 	text-decoration: none;
 }
 
-.thumbnail {
-	width: 100%;
-	margin-top: 15%;
-	margin-right: 15%;
-	padding: 0;
-}
-
-.thumb-text {
-	text-align: left;
-}
-
-/*navigation bar underline animation*/
-/*referenced from https://speckyboy.com/underline-text-effects-css/*/
-
+/* navigation bar underline animation */
+/* referenced from https://speckyboy.com/underline-text-effects-css/ */
 hr {
 	height: .20rem;
 	width: 25%;
@@ -112,7 +105,20 @@ hr {
 	color: black;
 }
 
-/*thumbnail overlay animation*/
+/* WORKS PAGE */
+
+.thumbnail {
+	width: 100%;
+	margin-top: 15%;
+	margin-right: 15%;
+	padding: 0;
+}
+
+.thumb-text {
+	text-align: left;
+}
+
+/* thumbnail overlay animation */
 .overlay {
 	position: absolute;
 	bottom: 0;
@@ -145,17 +151,11 @@ hr {
 	position:relative;
 }
 
-/*main content*/
+/* MAIN CONTENT */
 .page-title {
 	padding-left: 0px;
 	margin-left: 1.5%;
 }
-
-/*
-.details {
-	margin-top: 9.25%;
-}
-*/
 
 .site-map {
 	height: 40vw;
@@ -168,12 +168,16 @@ hr {
 
 .type-final-img {
 	height: 32vw; 
+}
+
+.mini-img {
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	width: 50vw;
 }
 
-/*footer*/
 .return, .here {
 	color: #9e867b;
 }
