@@ -67,7 +67,8 @@ p {
 .nav-item {
 	color: lightgray;
 	display: inline;
-	padding: 15px;
+	font-size: 1.25vw;
+	padding: 1.25vw;
 	text-transform: capitalize;
 	text-decoration: none;
 	text-align: left;
@@ -95,7 +96,7 @@ hr {
 }
 
 .about hr {
-	margin-left: 72%; !important
+	margin-left: 72%;
 }
 .about:hover ~ hr {
 	margin-left: 72%;

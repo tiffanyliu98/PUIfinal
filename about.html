@@ -15,6 +15,7 @@
 	
 	<!-- JavaScript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
 	<script src="assets/JS/main.js"></script>
 </head>
 
@@ -43,11 +44,11 @@
 
 			<!-- About Me Image -->
 			<div class="col-12 col-md-4">
-				<img class="about-img" src="assets/images/tiffany-liu.JPG">
+				<img class="about-img second" src="assets/images/tiffany-liu.JPG" alt="tiffanyliu">
 			</div>
 
 			<!-- About Me Text -->
-			<div class="col-12 col-md-8 about-text">
+			<div class="col-12 col-md-8 about-text third">
 				<h2>About Me</h2>
 				<p>My name is Tiffany Liu. I was born in Taiwan, but I have also spent time living and studying in China and the United States before entering Carnegie Mellon University. I am now a Junior Business Administration and Human-Computer Interaction double major at Carnegie Mellon University. On campus, I am also involved as a designer for TEDxCMU, a blogger for the Business School's Life@Tepper blog, and a member of Kappa Phi Lambda.</p>
 				<p>My passion lies in creating. In the past, I have experimented with all forms of arts and craft, from painting to sketching to photography to scrapbooking to fashion to bookbinding - you name it, I've probably tried it. Today, I mostly stick to bullet journaling and design as creative outlets, but I am always on the lookout for my next creative exploration.</p>
@@ -55,6 +56,13 @@
 			</div>
 		</div>
 	</div>
+	
+	<script type="text/javascript">
+		ScrollReveal({ reset: true });
+		ScrollReveal().reveal('.first');
+		ScrollReveal().reveal('.second', { delay: 250 });
+		ScrollReveal().reveal('.third', { delay: 500 });
+	</script>
 	
 </body>
 </html>
